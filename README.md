@@ -50,7 +50,7 @@ Authorization: Bearer <token>
 
 ## 🌐 Live API
 
-https://your-app.onrender.com/
+[https://your-app.onrender.com/](https://auth-system-1k2b.onrender.com)
 
 ---
 
