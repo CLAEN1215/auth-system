@@ -8,6 +8,11 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+//Homepage
+app.get("/", (req, res) => {
+  res.send("🚀 API is running...");
+});
+
 // Routes
 app.use("/api/auth", require("./routes/auth"));
 
